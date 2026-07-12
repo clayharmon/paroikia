@@ -50,6 +50,12 @@ around them.
   or the diff mixes schema, pipeline, and docs, split it.
 - A PR description states the why and the decisions the reviewer should
   weigh. It is not a list of changed files.
+- No meta commentary about the PR itself. Describe the change and its
+  evidence, not the mechanics of producing it: rebases, force-pushes, how
+  the diff was scoped, merge order, or CI runs. If the base branch or merge
+  order matters to a reviewer, put it in a PR comment, not the description.
+- Plain prose in commit bodies, PR descriptions, and docs: short
+  declaratives, a checkable fact per sentence, no em-dashes.
 - All work goes through a PR. CI must be green to merge.
 - PRs that add or edit files under `data/` use the data template:
   [.github/PULL_REQUEST_TEMPLATE/data.md](.github/PULL_REQUEST_TEMPLATE/data.md).
