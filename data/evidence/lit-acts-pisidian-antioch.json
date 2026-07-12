@@ -1,0 +1,23 @@
+{
+  "id": "lit-acts-pisidian-antioch",
+  "label": "Acts attests a Christian community at Pisidian Antioch",
+  "evidence_type": "literary_retrospective",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/609307",
+    "certainty": "certain",
+    "ancient_name": "Antiochia (Colonia Caesarea), Pisidia"
+  },
+  "date": {
+    "not_before": 46,
+    "not_after": 49,
+    "basis": "historical_context",
+    "note": "Paul's first missionary journey per the Pauline chronology Acts presupposes; Acts itself was composed c. 80–90, a generation later (hence the retrospective grade)."
+  },
+  "source": {
+    "primary": [{ "cite": "Acts 13.14–52; 14.21–23" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, pp. 185–186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "Pisidian Antioch (Colonia Caesarea, at Yalvaç), not one of the many other Antiochs; Pleiades 609307. Acts 14.21–23 has Paul and Barnabas appoint elders in each of these churches on the return leg, implying an organized community."
+}

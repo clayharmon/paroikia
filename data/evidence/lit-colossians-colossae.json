@@ -1,0 +1,23 @@
+{
+  "id": "lit-colossians-colossae",
+  "label": "The Epistle to the Colossians addresses the church at Colossae",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/638811",
+    "certainty": "certain",
+    "ancient_name": "Colossae"
+  },
+  "date": {
+    "not_before": 55,
+    "not_after": 62,
+    "basis": "historical_context",
+    "note": "Traditional Pauline dating from an imprisonment (c. 55–62), which Harnack assumes. If Colossians is deutero-Pauline the letter shifts to c. 70–80, still attesting a community and still pre-Trajan."
+  },
+  "source": {
+    "primary": [{ "cite": "Colossians 1.2; 4.12–13" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, pp. 185–186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "Colossae in the Lycus valley (Pleiades 638811), near Laodicea and Hierapolis. Contemporary grade: the letter addresses a living church."
+}

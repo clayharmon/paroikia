@@ -1,0 +1,23 @@
+{
+  "id": "lit-colossians-hierapolis",
+  "label": "Colossians attests Christians at Phrygian Hierapolis",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/638860",
+    "certainty": "certain",
+    "ancient_name": "Hierapolis (Phrygia)"
+  },
+  "date": {
+    "not_before": 55,
+    "not_after": 62,
+    "basis": "historical_context",
+    "note": "Traditional Pauline dating from an imprisonment (c. 55–62), which Harnack assumes. If Colossians is deutero-Pauline the letter shifts to c. 70–80, still pre-Trajan."
+  },
+  "source": {
+    "primary": [{ "cite": "Colossians 4.13" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, pp. 185–186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "Phrygian Hierapolis at Pamukkale (Pleiades 638860), not the several homonyms; the Lycus-valley city grouped with Colossae and Laodicea. Attested only indirectly: Col 4.13 says Epaphras laboured for those in Laodicea and Hierapolis. Weaker than a named addressee."
+}

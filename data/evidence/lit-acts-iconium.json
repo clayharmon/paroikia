@@ -1,0 +1,23 @@
+{
+  "id": "lit-acts-iconium",
+  "label": "Acts attests a Christian community at Iconium",
+  "evidence_type": "literary_retrospective",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/648647",
+    "certainty": "certain",
+    "ancient_name": "Iconium"
+  },
+  "date": {
+    "not_before": 46,
+    "not_after": 49,
+    "basis": "historical_context",
+    "note": "Paul's first missionary journey per the Pauline chronology Acts presupposes; Acts itself was composed c. 80–90, a generation later (hence the retrospective grade)."
+  },
+  "source": {
+    "primary": [{ "cite": "Acts 13.51–14.6; 14.21" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, pp. 185–186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "Acts 14.21–23 has elders appointed in these churches on the return leg."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "lit-acts-derbe",
+  "label": "Acts attests a Christian community at Derbe",
+  "evidence_type": "literary_retrospective",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/648620",
+    "certainty": "probable",
+    "ancient_name": "Derbe (Claudioderbe)"
+  },
+  "date": {
+    "not_before": 46,
+    "not_after": 49,
+    "basis": "historical_context",
+    "note": "Paul's first missionary journey per the Pauline chronology Acts presupposes; Acts itself was composed c. 80–90, a generation later (hence the retrospective grade)."
+  },
+  "source": {
+    "primary": [{ "cite": "Acts 14.6–7, 20–21; 16.1" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, pp. 185–186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "Certainty 'probable': Derbe's site was long disputed and is fixed to Kerti Höyük on the basis of an inscription found in 1956. Pleiades also carries an approximate record (648621); this uses the located one (648620)."
+}

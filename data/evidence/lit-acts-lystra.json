@@ -1,0 +1,23 @@
+{
+  "id": "lit-acts-lystra",
+  "label": "Acts attests a Christian community at Lystra",
+  "evidence_type": "literary_retrospective",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/648699",
+    "certainty": "certain",
+    "ancient_name": "Lystra (Colonia Iulia Felix Gemina)"
+  },
+  "date": {
+    "not_before": 46,
+    "not_after": 49,
+    "basis": "historical_context",
+    "note": "Paul's first missionary journey per the Pauline chronology Acts presupposes; Acts itself was composed c. 80–90, a generation later (hence the retrospective grade)."
+  },
+  "source": {
+    "primary": [{ "cite": "Acts 14.6–23; 16.1–2" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, pp. 185–186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "Home of Timothy (Acts 16.1–2). Acts 14.21–23 has elders appointed here."
+}
