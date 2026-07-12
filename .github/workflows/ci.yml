@@ -18,4 +18,5 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm typecheck
       - run: pnpm test
-      # Milestone 1+: validate → derive → export; Milestone 4: deploy site on main
+      - run: pnpm validate
+      # Milestone 2+: pleiades join → derive → export; Milestone 4: deploy site on main
