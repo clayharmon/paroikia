@@ -1,18 +1,23 @@
+import { readFileSync } from "node:fs";
+import { mkdtemp } from "node:fs/promises";
+import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
+import { buildIndex, writeIndex } from "./pleiades.js";
 import { validateDataset, type Issue } from "./validate.js";
 
 const here = fileURLToPath(new URL(".", import.meta.url));
 const fixtures = join(here, "fixtures");
 const schemaDir = join(here, "..", "schema");
 
-function run(kind: "valid" | "invalid") {
+function run(kind: "valid" | "invalid", pleiadesIndexFile?: string) {
   return validateDataset({
     schemaDir,
     evidenceDir: join(fixtures, kind, "evidence"),
     claimsDir: join(fixtures, kind, "claims"),
     bibFile: join(fixtures, kind, "sources", "bibliography.bib"),
+    ...(pleiadesIndexFile !== undefined ? { pleiadesIndexFile } : {}),
   });
 }
 
@@ -26,6 +31,38 @@ describe("valid fixtures", () => {
     expect(result.issues).toEqual([]);
     expect(result.evidenceCount).toBe(1);
     expect(result.claimCount).toBe(1);
+    expect(result.pleiadesChecked).toBe(false);
+  });
+});
+
+describe("pleiades join", () => {
+  async function indexFileFrom(csv: string): Promise<string> {
+    const dir = await mkdtemp(join(tmpdir(), "validate-pleiades-"));
+    const file = join(dir, "index.json");
+    writeIndex(buildIndex(csv), file);
+    return file;
+  }
+
+  it("passes when every place id resolves", async () => {
+    const miniDump = readFileSync(join(fixtures, "pleiades", "places-mini.csv"), "utf8");
+    const result = run("valid", await indexFileFrom(miniDump));
+    expect(result.issues).toEqual([]);
+    expect(result.pleiadesChecked).toBe(true);
+  });
+
+  it("flags dangling ids in evidence and claims", async () => {
+    const withoutEphesus = "id,title,reprLat,reprLong,minDate,maxDate\n550893,Smyrna,38.42,27.14,-1000.0,1453.0\n";
+    const result = run("valid", await indexFileFrom(withoutEphesus));
+    const dangling = result.issues.filter((i) => i.message.includes("dangling Pleiades id '599612'"));
+    expect(dangling).toHaveLength(2);
+    const files = dangling.map((i) => i.file.split("/").pop()).sort();
+    expect(files).toEqual(["congregation-ephesus-ignatius.json", "lit-ignatius-ephesians.json"]);
+  });
+
+  it("skips the check when the index file does not exist", () => {
+    const result = run("valid", join(tmpdir(), "no-such-index.json"));
+    expect(result.issues).toEqual([]);
+    expect(result.pleiadesChecked).toBe(false);
   });
 });
 

@@ -3,6 +3,7 @@ import { basename, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { Ajv2020 } from "ajv/dist/2020.js";
 import type { ErrorObject, ValidateFunction } from "ajv";
+import { loadIndex } from "./pleiades.js";
 
 export interface Issue {
   file: string;
@@ -14,12 +15,14 @@ export interface DatasetPaths {
   evidenceDir: string;
   claimsDir: string;
   bibFile: string;
+  pleiadesIndexFile?: string;
 }
 
 export interface ValidationResult {
   issues: Issue[];
   evidenceCount: number;
   claimCount: number;
+  pleiadesChecked: boolean;
 }
 
 interface VocabFile {
@@ -86,9 +89,19 @@ export function validateDataset(paths: DatasetPaths): ValidationResult {
   const datingBases = loadVocab(paths.schemaDir, "dating-basis.json");
   const placeCertainties = loadVocab(paths.schemaDir, "place-certainty.json");
   const bibkeys = collectBibkeys(paths.bibFile);
+  const pleiades =
+    paths.pleiadesIndexFile !== undefined ? loadIndex(paths.pleiadesIndexFile) : null;
 
   const issues: Issue[] = [];
   const evidenceIds = new Set<string>();
+
+  const checkPleiades = (file: string, uri: unknown): void => {
+    if (pleiades === null || typeof uri !== "string") return;
+    const id = uri.match(/^https:\/\/pleiades\.stoa\.org\/places\/([0-9]+)$/)?.[1];
+    if (id !== undefined && !pleiades.has(id)) {
+      issues.push({ file, message: `dangling Pleiades id '${id}': not in the Pleiades index` });
+    }
+  };
 
   const checkIdAndFilename = (file: string, id: unknown, seen: Set<string>): void => {
     if (typeof id !== "string") return;
@@ -138,7 +151,7 @@ export function validateDataset(paths: DatasetPaths): ValidationResult {
       id?: unknown;
       evidence_type?: unknown;
       date?: { not_before?: unknown; not_after?: unknown; basis?: unknown };
-      place?: { certainty?: unknown; note?: unknown };
+      place?: { certainty?: unknown; note?: unknown; pleiades_uri?: unknown };
       source?: unknown;
     };
     checkIdAndFilename(file, item.id, evidenceIds);
@@ -147,6 +160,7 @@ export function validateDataset(paths: DatasetPaths): ValidationResult {
     checkVocab(file, "place.certainty", item.place?.certainty, placeCertainties, "place-certainty.json");
     checkRange(file, item.date?.not_before, item.date?.not_after);
     checkBibkeys(file, item.source);
+    checkPleiades(file, item.place?.pleiades_uri);
     const certainty = item.place?.certainty;
     if ((certainty === "region_only" || certainty === "unlocated") && typeof item.place?.note !== "string") {
       issues.push({ file, message: `place.certainty '${String(certainty)}' requires place.note` });
@@ -169,6 +183,7 @@ export function validateDataset(paths: DatasetPaths): ValidationResult {
     const claim = doc as {
       id?: unknown;
       claim_type?: unknown;
+      place?: unknown;
       not_before?: unknown;
       not_after?: unknown;
       evidence?: unknown;
@@ -176,6 +191,7 @@ export function validateDataset(paths: DatasetPaths): ValidationResult {
     checkIdAndFilename(file, claim.id, claimIds);
     checkVocab(file, "claim_type", claim.claim_type, claimTypes, "claim-type.json");
     checkRange(file, claim.not_before, claim.not_after);
+    checkPleiades(file, claim.place);
     if (Array.isArray(claim.evidence)) {
       for (const ref of claim.evidence) {
         if (typeof ref === "string" && !evidenceIds.has(ref)) {
@@ -185,7 +201,12 @@ export function validateDataset(paths: DatasetPaths): ValidationResult {
     }
   }
 
-  return { issues, evidenceCount: evidenceFiles.length, claimCount: claimFiles.length };
+  return {
+    issues,
+    evidenceCount: evidenceFiles.length,
+    claimCount: claimFiles.length,
+    pleiadesChecked: pleiades !== null,
+  };
 }
 
 const invokedDirectly =
@@ -194,14 +215,20 @@ const invokedDirectly =
 
 if (invokedDirectly) {
   const root = fileURLToPath(new URL("..", import.meta.url));
-  const { issues, evidenceCount, claimCount } = validateDataset({
+  const { issues, evidenceCount, claimCount, pleiadesChecked } = validateDataset({
     schemaDir: join(root, "schema"),
     evidenceDir: join(root, "data", "evidence"),
     claimsDir: join(root, "data", "claims"),
     bibFile: join(root, "data", "sources", "bibliography.bib"),
+    pleiadesIndexFile: join(root, ".pleiades-cache", "index.json"),
   });
   for (const issue of issues) {
     console.error(`${issue.file}: ${issue.message}`);
+  }
+  if (!pleiadesChecked) {
+    console.log(
+      "no Pleiades index at .pleiades-cache/index.json; join check skipped (run 'pnpm pleiades')",
+    );
   }
   console.log(`${evidenceCount} evidence item(s), ${claimCount} claim(s), ${issues.length} problem(s)`);
   if (issues.length > 0) process.exit(1);
