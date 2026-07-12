@@ -1,0 +1,33 @@
+{
+  "id": "lit-pliny-bithynia",
+  "label": "Pliny reports Christians in Bithynia, in his province of Pontus-Bithynia, to Trajan",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/991389",
+    "certainty": "region_only",
+    "ancient_name": "Bithynia",
+    "note": "Provincial, not local: Pliny names no city. His letter reports Christians spread 'non civitates tantum sed vicos etiam atque agros' (not only towns but villages and countryside) across his province of Bithynia-Pontus. This item places that testimony on Bithynia (991389); lit-pliny-pontus places the same letter on Pontus, the other half of the province. Harnack (p. 187 n.) puts the letter in the east of the province, near Amastris or Amasia, from the datelines of the surrounding letters."
+  },
+  "date": {
+    "not_before": 111,
+    "not_after": 113,
+    "basis": "historical_context",
+    "note": "Written during Pliny's governorship of Pontus-Bithynia; Harnack (p. 187) dates Ep. 10.96 to c. 111–113. The book-10 correspondence is a governor's dispatch sequence, so the range is fixed by the office, not by an internal date formula."
+  },
+  "source": {
+    "primary": [
+      {
+        "cite": "Pliny the Younger, Epistulae 10.96–97 (to and from Trajan, on the Christians)",
+        "url": "https://www.attalus.org/old/pliny10b.html"
+      }
+    ],
+    "secondary": [
+      {
+        "cite": "Harnack, Mission and Expansion, vol. 2, pp. 186–187",
+        "bibkey": "harnack1908",
+        "url": "https://archive.org/details/missionexpansion02harn/page/186"
+      }
+    ]
+  },
+  "notes": "The same letter as lit-pliny-pontus, placed on the Bithynia half of the province. One apostate told Pliny he had left the faith more than twenty years before, pushing Christian presence in the province back toward c. 90. An official, hostile witness, which is why it is weighted as literary_contemporary rather than discounted."
+}

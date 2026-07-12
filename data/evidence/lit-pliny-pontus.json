@@ -1,12 +1,12 @@
 {
-  "id": "lit-pliny-pontus-bithynia",
-  "label": "Pliny reports Christians throughout the province of Pontus-Bithynia to Trajan",
+  "id": "lit-pliny-pontus",
+  "label": "Pliny reports Christians in Pontus, in his province of Pontus-Bithynia, to Trajan",
   "evidence_type": "literary_contemporary",
   "place": {
     "pleiades_uri": "https://pleiades.stoa.org/places/857287",
     "certainty": "region_only",
-    "ancient_name": "Pontus et Bithynia",
-    "note": "Provincial, not local: Pliny names no city. His letter reports Christians spread 'non civitates tantum sed vicos etiam atque agros' (not only towns but villages and countryside). Anchored at the Pontus region resource (857287); Bithynia, the other half of the province, is carried separately by lit-1peter-bithynia. Harnack (p. 187 n.) places the letter in the east of Bithynia-Pontus, near Amastris or Amasia, from the datelines of the surrounding letters."
+    "ancient_name": "Pontus",
+    "note": "Provincial, not local: Pliny names no city. His letter reports Christians spread 'non civitates tantum sed vicos etiam atque agros' (not only towns but villages and countryside) across his province of Bithynia-Pontus. This item places that testimony on Pontus (857287); lit-pliny-bithynia places the same letter on Bithynia, the other half of the province. Harnack (p. 187 n.) puts the letter in the east of the province, near Amastris or Amasia, from the datelines of the surrounding letters."
   },
   "date": {
     "not_before": 111,
