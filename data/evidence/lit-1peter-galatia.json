@@ -6,7 +6,7 @@
     "pleiades_uri": "https://pleiades.stoa.org/places/619161",
     "certainty": "region_only",
     "ancient_name": "Galatia",
-    "note": "The address names the Roman province of Galatia. Pinned to the Galatia province/region resource (619161). Distinct from the south-Galatian cities already attested from Acts in batch 2 (Pisidian Antioch, Iconium, Lystra, Derbe); those are settlements, this is the province as a whole."
+    "note": "The address names the Roman province of Galatia. Pinned to the Galatia province/region resource (619161). Distinct from the south-Galatian cities attested from Acts (Pisidian Antioch, Iconium, Lystra, Derbe); those are settlements, this is the province as a whole."
   },
   "date": {
     "not_before": 60,

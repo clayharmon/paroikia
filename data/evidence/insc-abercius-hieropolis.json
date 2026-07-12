@@ -6,7 +6,7 @@
     "pleiades_uri": "https://pleiades.stoa.org/places/609403",
     "certainty": "probable",
     "ancient_name": "Hieropolis (Phrygian Pentapolis)",
-    "note": "Ramsay identified Abercius' see as Hieropolis in the Sandikli valley (Phrygian Pentapolis), mod. Kochisar (Pleiades 609403), from the find-spot of the inscription fragments at nearby Kelendres. This is not Hierapolis ad Lycum / Pamukkale (638860), the Lycus-valley city already in the dataset (lit-colossians-hierapolis). The identification is probable, not certain: the medieval Life of Abercius and some older scholarship attach him instead to the better-known Hierapolis."
+    "note": "Ramsay identified Abercius' see as Hieropolis in the Sandikli valley (Phrygian Pentapolis), mod. Kochisar (Pleiades 609403), from the find-spot of the inscription fragments at nearby Kelendres. This is not Hierapolis ad Lycum / Pamukkale (638860), the Lycus-valley city attested from Colossians (lit-colossians-hierapolis). The identification is probable, not certain: the medieval Life of Abercius and some older scholarship attach him instead to the better-known Hierapolis."
   },
   "date": {
     "not_before": 160,
@@ -31,5 +31,5 @@
       }
     ]
   },
-  "notes": "The first documentary (non-literary) item in the dataset, and the first with an insc- id prefix. Harnack (p. 188): 'however one may view the famous inscription of Abercius, we may infer from it that Christianity had by that time reached Hieropolis.' The epitaph, in symbolic language, names a shepherd-taught traveller who went to Rome and beyond the Euphrates and everywhere found the faith setting bread and mixed cup before him; it is the oldest inscription to mention the Eucharist. Graded documentary_undated: a physical inscription dated by context (before 216) rather than by an internal formula. The see-identification in place.note is the key judgment call for review. A corpus edition number (the fragments are in the Vatican, Museo Pio Cristiano) can be added on verification."
+  "notes": "Harnack (p. 188): 'however one may view the famous inscription of Abercius, we may infer from it that Christianity had by that time reached Hieropolis.' The epitaph, in symbolic language, names a shepherd-taught traveller who went to Rome and beyond the Euphrates and everywhere found the faith setting bread and mixed cup before him; it is the oldest inscription to mention the Eucharist. The stone fragments Ramsay recovered are in the Vatican, Museo Pio Cristiano."
 }
