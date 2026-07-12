@@ -1,0 +1,23 @@
+{
+  "id": "lit-ignatius-smyrna",
+  "label": "Ignatius of Antioch addresses the church at Smyrna",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/550893",
+    "certainty": "certain",
+    "ancient_name": "Smyrna"
+  },
+  "date": {
+    "not_before": 105,
+    "not_after": 117,
+    "basis": "scholarly",
+    "note": "Ignatius wrote en route to martyrdom at Rome. Eusebius (Hist. eccl. 3.36) places the journey under Trajan (reigned 98–117), traditionally c. 107–110; the range brackets the later part of Trajan's reign. A minority redates the letters to c. 125–150 (Barnes 2008)."
+  },
+  "source": {
+    "primary": [{ "cite": "Ignatius, To the Smyrnaeans, salutation" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, pp. 185–186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "The letter to the Smyrnaeans. Ignatius was hosted by the Smyrna church during his journey and wrote several letters from there. Independent of the Apocalypse's letter to Smyrna (lit-apocalypse-smyrna) and ~15 years later. A second Ignatian attestation of Smyrna, addressed to its bishop, is lit-ignatius-polycarp."
+}
