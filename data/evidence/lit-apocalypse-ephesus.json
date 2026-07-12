@@ -1,0 +1,23 @@
+{
+  "id": "lit-apocalypse-ephesus",
+  "label": "The Apocalypse of John addresses the church at Ephesus",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/599612",
+    "certainty": "certain",
+    "ancient_name": "Ephesus"
+  },
+  "date": {
+    "not_before": 68,
+    "not_after": 96,
+    "basis": "scholarly",
+    "note": "Composition of the Apocalypse: the dominant Domitianic dating (c. 95, per Irenaeus, Haer. 5.30.3) as upper bound, the minority Neronian dating as lower."
+  },
+  "source": {
+    "primary": [{ "cite": "Apocalypse of John (Revelation) 2.1–7" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, pp. 185–186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "One of the seven churches of Apoc. 2–3. Harnack counts Ephesus among the communities attested before Trajan's reign."
+}

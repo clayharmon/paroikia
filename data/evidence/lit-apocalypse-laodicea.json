@@ -1,0 +1,23 @@
+{
+  "id": "lit-apocalypse-laodicea",
+  "label": "The Apocalypse of John addresses the church at Laodicea",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/638955",
+    "certainty": "certain",
+    "ancient_name": "Laodicea ad Lycum"
+  },
+  "date": {
+    "not_before": 68,
+    "not_after": 96,
+    "basis": "scholarly",
+    "note": "Composition of the Apocalypse: the dominant Domitianic dating (c. 95, per Irenaeus, Haer. 5.30.3) as upper bound, the minority Neronian dating as lower."
+  },
+  "source": {
+    "primary": [{ "cite": "Apocalypse of John (Revelation) 3.14–22" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, pp. 185–186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "One of the seven churches of Apoc. 2–3. Harnack: 'a church which had already compromised with the world' (p. 186). Laodicea on the Lycus (Pleiades 638955), not the Syrian homonyms."
+}
