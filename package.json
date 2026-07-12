@@ -2,7 +2,7 @@
   "name": "paroikia",
   "version": "0.0.0",
   "private": true,
-  "description": "An evidence-first atlas of early Christianity, c. 30–325 CE",
+  "description": "An evidence-first atlas of early Christianity, c. 30\u2013325 CE",
   "type": "module",
   "license": "MIT",
   "packageManager": "pnpm@10.30.2",
