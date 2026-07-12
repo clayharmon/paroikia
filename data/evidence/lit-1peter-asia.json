@@ -6,7 +6,7 @@
     "pleiades_uri": "https://pleiades.stoa.org/places/991380",
     "certainty": "region_only",
     "ancient_name": "Asia",
-    "note": "Pleiades has no clean settlement-style resource for the province of Asia. The two 'Asia' province records (991380, 1001906) are Barrington Atlas map labels filed under Pleiades /errata; the only /places record (915832) is unlocated. 991380 is used here because it carries a representative point (37.5, 27.5) and resolves in the index. The province is otherwise densely attested at city level in batches 1–3 (Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, Laodicea, Colossae, Hierapolis, Troas)."
+    "note": "Pleiades has no clean settlement-style resource for the province of Asia. The two 'Asia' province records (991380, 1001906) are Barrington Atlas map labels filed under Pleiades /errata; the only /places record (915832) is unlocated. 991380 is used here because it carries a representative point (37.5, 27.5). The province is otherwise densely attested at city level: Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia, Laodicea, Colossae, Hierapolis, Troas."
   },
   "date": {
     "not_before": 60,
@@ -28,5 +28,5 @@
       }
     ]
   },
-  "notes": "Recorded so that 1 Peter's witness to the province of Asia is not lost behind the city-level items, which come from other sources (the Apocalypse, Acts, the Pauline letters). Harnack notes 1 Peter's opening among the evidence for Christians in Asia (p. 186)."
+  "notes": "1 Peter 1.1 addresses Christians in the province of Asia; its city-level attestations come from other sources, the Apocalypse, Acts, and the Pauline letters. Harnack notes 1 Peter's opening among the evidence for Christians in Asia (p. 186)."
 }

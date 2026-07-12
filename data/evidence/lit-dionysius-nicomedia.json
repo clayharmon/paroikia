@@ -1,0 +1,31 @@
+{
+  "id": "lit-dionysius-nicomedia",
+  "label": "Dionysius of Corinth wrote a letter to the church at Nicomedia",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/511337",
+    "certainty": "certain",
+    "ancient_name": "Nicomedia"
+  },
+  "date": {
+    "not_before": 166,
+    "not_after": 175,
+    "basis": "historical_context",
+    "note": "Dionysius, bishop of Corinth, wrote his catholic epistles during the Roman episcopate of Soter (c. 166-174), to whom he also wrote. The range brackets that episcopate; his floruit is c. 170."
+  },
+  "source": {
+    "primary": [
+      {
+        "cite": "Dionysius of Corinth, Letter to the Nicomedians, in Eusebius, Hist. eccl. 4.23.4",
+        "url": "https://www.newadvent.org/fathers/250104.htm"
+      }
+    ],
+    "secondary": [
+      {
+        "cite": "Harnack, Mission and Expansion, vol. 2, p. 188; synopsis at p. 95",
+        "bibkey": "harnack1908"
+      }
+    ]
+  },
+  "notes": "Eusebius (HE 4.23.4) reports that Dionysius' letter to Nicomedia attacked the heresy of Marcion and upheld the rule of truth. A contemporary attestation of the church there c. 170. Nicomedia (511337, mod. Izmit) is the metropolis of Bithynia, where Pliny and 1 Peter attest Christians only at the provincial level."
+}

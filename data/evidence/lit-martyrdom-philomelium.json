@@ -1,0 +1,31 @@
+{
+  "id": "lit-martyrdom-philomelium",
+  "label": "The Martyrdom of Polycarp is addressed to the church sojourning at Philomelium",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/609501",
+    "certainty": "certain",
+    "ancient_name": "Philomelion"
+  },
+  "date": {
+    "not_before": 155,
+    "not_after": 167,
+    "basis": "scholarly",
+    "note": "The Letter of the Smyrnaeans (Martyrdom of Polycarp) was written soon after Polycarp's death. The majority dating, fixed by the proconsulship of Statius Quadratus, is c. 155-156; the Eusebian chronicle places the martyrdom under Marcus Aurelius, c. 166-167. The range brackets both."
+  },
+  "source": {
+    "primary": [
+      {
+        "cite": "Martyrdom of Polycarp, salutation: 'The Church of God which sojourns at Smyrna, to the Church of God sojourning at Philomelium'",
+        "url": "https://www.newadvent.org/fathers/0102.htm"
+      }
+    ],
+    "secondary": [
+      {
+        "cite": "Harnack, Mission and Expansion, vol. 2, p. 188; synopsis at p. 95",
+        "bibkey": "harnack1908"
+      }
+    ]
+  },
+  "notes": "The letter is sent from the church at Smyrna to the church at Philomelium (Phrygia Paroreios, mod. Aksehir), a contemporary attestation of a congregation there c. 155-167. Harnack (p. 188) cites 'the epistle of the Smyrniote church upon Polycarp's death.' The Greek names the recipient as the church paroikouse Philomelion, sojourning at Philomelium."
+}
