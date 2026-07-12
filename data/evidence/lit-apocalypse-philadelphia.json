@@ -1,0 +1,23 @@
+{
+  "id": "lit-apocalypse-philadelphia",
+  "label": "The Apocalypse of John addresses the church at Philadelphia",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/550822",
+    "certainty": "certain",
+    "ancient_name": "Philadelpheia"
+  },
+  "date": {
+    "not_before": 68,
+    "not_after": 96,
+    "basis": "scholarly",
+    "note": "Composition of the Apocalypse: the dominant Domitianic dating (c. 95, per Irenaeus, Haer. 5.30.3) as upper bound, the minority Neronian dating as lower."
+  },
+  "source": {
+    "primary": [{ "cite": "Apocalypse of John (Revelation) 3.7–13" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, pp. 185–186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "One of the seven churches of Apoc. 2–3. The Lydian Philadelphia (Pleiades 550822), not its homonyms in Egypt or the Decapolis."
+}
