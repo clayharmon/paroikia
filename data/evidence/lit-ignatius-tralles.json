@@ -1,0 +1,23 @@
+{
+  "id": "lit-ignatius-tralles",
+  "label": "Ignatius of Antioch addresses the church at Tralles",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/599987",
+    "certainty": "certain",
+    "ancient_name": "Tralles"
+  },
+  "date": {
+    "not_before": 105,
+    "not_after": 117,
+    "basis": "scholarly",
+    "note": "Ignatius wrote en route to martyrdom at Rome. Eusebius (Hist. eccl. 3.36) places the journey under Trajan (reigned 98–117), traditionally c. 107–110; the range brackets the later part of Trajan's reign. A minority redates the letters to c. 125–150 (Barnes 2008)."
+  },
+  "source": {
+    "primary": [{ "cite": "Ignatius, To the Trallians, salutation; also 1 (their bishop Polybius)" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, p. 186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "Tralles ad Maeandrum (Pleiades 599987), not the late 'Tralleis in Lydia' resource (614866, dated 300–640). The Apocalypse does not mention Tralles; Harnack p. 186 pairs it with Magnesia as 'earlier than Trajan's reign, undoubtedly (see Ignatius).' Ignatius names Polybius as their bishop."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "lit-ignatius-magnesia",
+  "label": "Ignatius of Antioch addresses the church at Magnesia on the Maeander",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/599778",
+    "certainty": "certain",
+    "ancient_name": "Magnesia ad Maeandrum"
+  },
+  "date": {
+    "not_before": 105,
+    "not_after": 117,
+    "basis": "scholarly",
+    "note": "Ignatius wrote en route to martyrdom at Rome. Eusebius (Hist. eccl. 3.36) places the journey under Trajan (reigned 98–117), traditionally c. 107–110; the range brackets the later part of Trajan's reign. A minority redates the letters to c. 125–150 (Barnes 2008)."
+  },
+  "source": {
+    "primary": [{ "cite": "Ignatius, To the Magnesians, salutation; also 2 (their bishop Damas)" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, p. 186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "Magnesia ad Maeandrum/Leukophrys (Pleiades 599778), not Magnesia ad Sipylum (550706) nor the Thessalian Magnesia region (540923). The Apocalypse does not mention Magnesia, so this is Ignatius' independent attestation; Harnack p. 186 calls the church 'earlier than Trajan's reign, undoubtedly (see Ignatius).' Ignatius names Damas as their bishop."
+}

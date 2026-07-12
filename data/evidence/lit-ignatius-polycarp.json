@@ -1,0 +1,23 @@
+{
+  "id": "lit-ignatius-polycarp",
+  "label": "Ignatius of Antioch writes to Polycarp, bishop of the church at Smyrna",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/550893",
+    "certainty": "certain",
+    "ancient_name": "Smyrna"
+  },
+  "date": {
+    "not_before": 105,
+    "not_after": 117,
+    "basis": "scholarly",
+    "note": "Ignatius wrote en route to martyrdom at Rome. Eusebius (Hist. eccl. 3.36) places the journey under Trajan (reigned 98–117), traditionally c. 107–110; the range brackets the later part of Trajan's reign. A minority redates the letters to c. 125–150 (Barnes 2008)."
+  },
+  "source": {
+    "primary": [{ "cite": "Ignatius, To Polycarp, salutation (Polycarp, bishop of the church of the Smyrnaeans)" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, pp. 185–186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "The letter to Polycarp, distinct from the letter to the Smyrnaeans (lit-ignatius-smyrna) and kept separate as its own text. Attests the same Smyrna church (Pleiades 550893) and names its bishop, Polycarp — a fixed prosopographical anchor for the community c. 110."
+}
