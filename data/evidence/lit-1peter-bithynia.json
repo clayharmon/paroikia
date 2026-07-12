@@ -1,0 +1,32 @@
+{
+  "id": "lit-1peter-bithynia",
+  "label": "1 Peter is addressed to Christians in the province of Bithynia",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/991389",
+    "certainty": "region_only",
+    "ancient_name": "Bithynia",
+    "note": "The address names the province of Bithynia, on the southern Black Sea coast. Pinned to the Bithynia province resource (991389). Pliny (lit-pliny-bithynia) governed Bithynia together with Pontus and gives the second attestation c. 111–113."
+  },
+  "date": {
+    "not_before": 60,
+    "not_after": 96,
+    "basis": "scholarly",
+    "note": "Composition of 1 Peter. Traditional Petrine authorship puts it before Peter's death under Nero (c. 64); the majority view holds it pseudonymous, c. 70–90. Harnack (p. 186 n.) assigns it to 'the earlier years of Domitian' (c. 81–85). Upper bound 96 (end of Domitian); a minority dates it into the early second century."
+  },
+  "source": {
+    "primary": [
+      {
+        "cite": "1 Peter 1.1",
+        "url": "https://biblehub.com/1_peter/1-1.htm"
+      }
+    ],
+    "secondary": [
+      {
+        "cite": "Harnack, Mission and Expansion, vol. 2, pp. 92–93 (register of communities traceable before Trajan), 186",
+        "bibkey": "harnack1908"
+      }
+    ]
+  },
+  "notes": "Harnack's register lists 'a number of churches in Bithynia and Pontus (1 Pet. i. 1; Pliny's ep. to Trajan).' 1 Peter and Pliny are the two independent witnesses to the province: 1 Peter (c. 80s) then Pliny (c. 112)."
+}

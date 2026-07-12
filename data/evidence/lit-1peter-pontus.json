@@ -1,0 +1,32 @@
+{
+  "id": "lit-1peter-pontus",
+  "label": "1 Peter is addressed to Christians in the province of Pontus",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/857287",
+    "certainty": "region_only",
+    "ancient_name": "Pontus",
+    "note": "The address of 1 Peter names the province, not a settlement. Pinned to the Pontus region resource (857287). Pliny (lit-pliny-pontus) gives the second, independent attestation for this province a generation later."
+  },
+  "date": {
+    "not_before": 60,
+    "not_after": 96,
+    "basis": "scholarly",
+    "note": "Composition of 1 Peter. Traditional Petrine authorship puts it before Peter's death under Nero (c. 64); the majority view holds it pseudonymous, c. 70–90. Harnack (p. 186 n.) assigns it to 'the earlier years of Domitian' (c. 81–85). Upper bound 96 (end of Domitian); a minority dates it into the early second century."
+  },
+  "source": {
+    "primary": [
+      {
+        "cite": "1 Peter 1.1",
+        "url": "https://biblehub.com/1_peter/1-1.htm"
+      }
+    ],
+    "secondary": [
+      {
+        "cite": "Harnack, Mission and Expansion, vol. 2, pp. 92–93 (register of communities traceable before Trajan), 186",
+        "bibkey": "harnack1908"
+      }
+    ]
+  },
+  "notes": "1 Peter 1.1 addresses 'the elect exiles of the dispersion in Pontus, Galatia, Cappadocia, Asia, and Bithynia' — five provinces, entered here as five region-level items. Harnack's register lists 'a number of churches in Bithynia and Pontus (1 Pet. i. 1; Pliny's ep. to Trajan).'"
+}
