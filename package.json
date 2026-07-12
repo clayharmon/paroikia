@@ -1,0 +1,22 @@
+{
+  "name": "paroikia",
+  "version": "0.0.0",
+  "private": true,
+  "description": "An evidence-first atlas of early Christianity, c. 30–325 CE",
+  "type": "module",
+  "license": "MIT",
+  "packageManager": "pnpm@10.30.2",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "vitest run --passWithNoTests",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "tsx": "^4.23.0",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.10"
+  }
+}
