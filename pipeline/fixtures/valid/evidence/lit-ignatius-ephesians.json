@@ -1,0 +1,24 @@
+{
+  "id": "lit-ignatius-ephesians",
+  "label": "Ignatius of Antioch addresses the church at Ephesus",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/599612",
+    "certainty": "certain",
+    "ancient_name": "Ephesus"
+  },
+  "date": {
+    "not_before": 105,
+    "not_after": 118,
+    "basis": "historical_context",
+    "note": "Ignatius' transport to Rome under Trajan; the range spans the traditional and revisionist datings."
+  },
+  "source": {
+    "primary": [
+      { "cite": "Ignatius, To the Ephesians, inscr. and 1–6" }
+    ],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, bk. 4", "bibkey": "harnack1908" }
+    ]
+  }
+}

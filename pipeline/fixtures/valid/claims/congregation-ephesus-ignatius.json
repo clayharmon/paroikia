@@ -1,0 +1,12 @@
+{
+  "id": "congregation-ephesus-ignatius",
+  "claim_type": "congregation",
+  "place": "https://pleiades.stoa.org/places/599612",
+  "not_before": 105,
+  "not_after": 118,
+  "evidence": ["lit-ignatius-ephesians"],
+  "derivation": {
+    "rules_version": "0.0.0",
+    "rule": "fixture-only"
+  }
+}

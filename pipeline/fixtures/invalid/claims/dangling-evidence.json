@@ -1,0 +1,12 @@
+{
+  "id": "dangling-evidence",
+  "claim_type": "congregation",
+  "place": "https://pleiades.stoa.org/places/599612",
+  "not_before": 100,
+  "not_after": 150,
+  "evidence": ["ghost-item"],
+  "derivation": {
+    "rules_version": "0.0.0",
+    "rule": "fixture-only"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bad-evidence-type",
+  "label": "Item with an evidence_type outside the vocabulary",
+  "evidence_type": "epigraphic",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/599612",
+    "certainty": "certain"
+  },
+  "date": { "not_before": 100, "not_after": 150, "basis": "scholarly" },
+  "source": { "primary": [{ "cite": "Fixture citation" }] }
+}
