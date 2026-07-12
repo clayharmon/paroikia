@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/clayharmon/paroikia/main/schema/presence-claim.schema.json",
+  "title": "Presence claim",
+  "description": "A derived claim that Christian presence of a given kind is attested at a place within a date range. Claims are generated from evidence items by pipeline/derive-claims.ts; hand-authored claims are rejected in CI. One file per claim under data/claims/, named <id>.json.",
+  "type": "object",
+  "required": ["id", "claim_type", "place", "not_before", "not_after", "evidence", "derivation"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{2,63}$",
+      "description": "Stable slug. Must equal the filename without .json; checked by validate.ts."
+    },
+    "claim_type": {
+      "type": "string",
+      "$comment": "Values in schema/vocab/claim-type.json; membership is checked by validate.ts."
+    },
+    "place": {
+      "type": "string",
+      "pattern": "^https://pleiades\\.stoa\\.org/places/[0-9]+$"
+    },
+    "not_before": { "$ref": "#/$defs/year" },
+    "not_after": { "$ref": "#/$defs/year" },
+    "confidence": {
+      "type": "string",
+      "$comment": "Computed by derive-claims.ts from evidence grades and independence; not set by hand. Left loosely typed until the derivation rules exist."
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$" },
+      "description": "IDs of the evidence items this claim rests on. Every ID must exist under data/evidence/; checked by validate.ts."
+    },
+    "derivation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rules_version", "rule"],
+      "properties": {
+        "rules_version": {
+          "type": "string",
+          "description": "Version of the derivation rules that produced this claim, so any claim can be traced to the exact rule text."
+        },
+        "rule": {
+          "type": "string",
+          "description": "Identifier of the specific rule, e.g. 'council-subscription-implies-bishopric'."
+        }
+      }
+    }
+  },
+  "$defs": {
+    "year": {
+      "type": "integer",
+      "minimum": -500,
+      "maximum": 1000,
+      "$comment": "ISO 8601 / astronomical year numbering: 1 BCE is 0, 2 BCE is -1."
+    }
+  }
+}

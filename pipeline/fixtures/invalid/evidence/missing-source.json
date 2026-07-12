@@ -1,0 +1,10 @@
+{
+  "id": "missing-source",
+  "label": "Item with no source citation block",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/599612",
+    "certainty": "certain"
+  },
+  "date": { "not_before": 100, "not_after": 150, "basis": "scholarly" }
+}

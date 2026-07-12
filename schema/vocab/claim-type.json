@@ -1,0 +1,27 @@
+{
+  "vocabulary": "claim_type",
+  "version": "0.1.0",
+  "description": "What kind of Christian presence a claim asserts. The types are deliberately not a hierarchy: a martyrdom_event does not imply a congregation, and derivation rules must not treat it as if it did.",
+  "terms": [
+    {
+      "value": "congregation",
+      "definition": "An organized Christian community met at this place."
+    },
+    {
+      "value": "bishopric",
+      "definition": "The place had a bishop. Implies a congregation only via an explicit derivation rule, never silently."
+    },
+    {
+      "value": "individual_christians",
+      "definition": "One or more Christians attested at this place, without evidence of an organized community."
+    },
+    {
+      "value": "church_building",
+      "definition": "A purpose-built or purpose-adapted Christian meeting place existed here."
+    },
+    {
+      "value": "martyrdom_event",
+      "definition": "A martyrdom of Christians is attested at this place."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bad-pleiades",
+  "label": "Item whose place URI is not a Pleiades place",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "http://example.com/places/599612",
+    "certainty": "certain"
+  },
+  "date": { "not_before": 100, "not_after": 150, "basis": "scholarly" },
+  "source": { "primary": [{ "cite": "Fixture citation" }] }
+}

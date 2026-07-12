@@ -1,0 +1,31 @@
+{
+  "vocabulary": "dating_basis",
+  "version": "0.1.0",
+  "description": "How a date range was established. Every date in the dataset carries one of these; 'a libellus of 250' and 'Eusebius says under Trajan' must be distinguishable by machine.",
+  "terms": [
+    {
+      "value": "internal",
+      "definition": "The text states its own date (consular, regnal, or era formula) or names a datable office-holder in a dating formula."
+    },
+    {
+      "value": "paleographic",
+      "definition": "Dated by letter forms or scribal hand. Typically yields a range of half a century or more."
+    },
+    {
+      "value": "archaeological",
+      "definition": "Dated by excavation context, stratigraphy, or associated finds."
+    },
+    {
+      "value": "prosopographic",
+      "definition": "Dated by identifiable persons named in or by the text, outside a formal dating formula."
+    },
+    {
+      "value": "historical_context",
+      "definition": "Dated by events or institutions the text presupposes or references."
+    },
+    {
+      "value": "scholarly",
+      "definition": "Date taken from a modern edition or standard reference whose own basis is not restated here. The weakest basis; prefer any of the others when the source allows it."
+    }
+  ]
+}

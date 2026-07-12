@@ -1,0 +1,27 @@
+{
+  "vocabulary": "place_certainty",
+  "version": "0.1.0",
+  "description": "How securely the evidence is tied to its Pleiades place. For region_only and unlocated, validate.ts additionally requires place.note to say what is actually known.",
+  "terms": [
+    {
+      "value": "certain",
+      "definition": "The identification with the Pleiades place is undisputed."
+    },
+    {
+      "value": "probable",
+      "definition": "The identification is generally accepted but rests on inference (find-spot, textual emendation, onomastics)."
+    },
+    {
+      "value": "uncertain",
+      "definition": "The identification is disputed or conjectural; the Pleiades URI records the leading candidate."
+    },
+    {
+      "value": "region_only",
+      "definition": "The evidence locates only to a region or province. The Pleiades URI points at the region's own place resource, not a settlement."
+    },
+    {
+      "value": "unlocated",
+      "definition": "No accepted identification with any Pleiades place. pleiades_uri is omitted; the item is recorded but cannot appear on the map."
+    }
+  ]
+}
