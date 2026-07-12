@@ -1,0 +1,35 @@
+{
+  "id": "insc-abercius-hieropolis",
+  "label": "The epitaph of Abercius, a bishop, attests organized Christianity at Hieropolis in Phrygia",
+  "evidence_type": "documentary_undated",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/609403",
+    "certainty": "probable",
+    "ancient_name": "Hieropolis (Phrygian Pentapolis)",
+    "note": "Ramsay identified Abercius' see as Hieropolis in the Sandikli valley (Phrygian Pentapolis), mod. Kochisar (Pleiades 609403), from the find-spot of the inscription fragments at nearby Kelendres. This is not Hierapolis ad Lycum / Pamukkale (638860), the Lycus-valley city already in the dataset (lit-colossians-hierapolis). The identification is probable, not certain: the medieval Life of Abercius and some older scholarship attach him instead to the better-known Hierapolis."
+  },
+  "date": {
+    "not_before": 160,
+    "not_after": 200,
+    "basis": "historical_context",
+    "note": "Abercius flourished under Marcus Aurelius (reigned 161-180) and composed the epitaph at the age of 72. Terminus ante quem 216: the epitaph of Alexander, dated 216, quotes it. The consensus places the Abercius inscription at the end of the 2nd century."
+  },
+  "source": {
+    "primary": [
+      {
+        "cite": "Epitaph of Abercius (the Abercius inscription); stone fragments and the fuller text preserved in the Life of Abercius",
+        "url": "https://www.earlychristianwritings.com/abercius.html"
+      }
+    ],
+    "secondary": [
+      {
+        "cite": "Harnack, Mission and Expansion, vol. 2, p. 189; synopsis at p. 95",
+        "bibkey": "harnack1908"
+      },
+      {
+        "cite": "W. M. Ramsay, discovery and identification of the Abercius inscription (fragments found 1882-83 at Kelendres / Hieropolis)"
+      }
+    ]
+  },
+  "notes": "The first documentary (non-literary) item in the dataset, and the first with an insc- id prefix. Harnack (p. 189): 'however one may view the famous inscription of Abercius, we may infer from it that Christianity had by that time reached Hieropolis.' The epitaph, in symbolic language, names a shepherd-taught traveller who went to Rome and beyond the Euphrates and everywhere found the faith setting bread and mixed cup before him; it is the oldest inscription to mention the Eucharist. Graded documentary_undated: a physical inscription dated by context (before 216) rather than by an internal formula. The see-identification in place.note is the key judgment call for review. A corpus edition number (the fragments are in the Vatican, Museo Pio Cristiano) can be added on verification."
+}

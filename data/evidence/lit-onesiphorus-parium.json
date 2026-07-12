@@ -1,0 +1,30 @@
+{
+  "id": "lit-onesiphorus-parium",
+  "label": "The Acts of Onesiphorus places a Christian community at Parium in Mysia",
+  "evidence_type": "hagiographic",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/511354",
+    "certainty": "certain",
+    "ancient_name": "Parium"
+  },
+  "date": {
+    "not_before": 98,
+    "not_after": 180,
+    "basis": "scholarly",
+    "note": "No internal date. Harnack lists Parium among the towns attested between Trajan (acc. 98) and the death of Marcus Aurelius (180); the range is that bracket, not a dating of the apocryphal Acts themselves, whose composition is later and uncertain."
+  },
+  "source": {
+    "primary": [
+      {
+        "cite": "Acta Onesiphori (apocryphal Acts of Onesiphorus)"
+      }
+    ],
+    "secondary": [
+      {
+        "cite": "Harnack, Mission and Expansion, vol. 2, p. 188; synopsis at p. 95",
+        "bibkey": "harnack1908"
+      }
+    ]
+  },
+  "notes": "The weakest item in the batch, graded hagiographic because it rests on legendary apocryphal Acts. Harnack himself hedges: 'Parium in Mysia (for in this connection we may trust the Acta Onesiphori)' (p. 188), cross-referring to Acta SS. Feb. II p. 42. Recorded because Harnack counts it among his fourteen towns; the grade keeps it from being silently promoted alongside the contemporary attestations. Parium (511354) is the Propontic city in Mysia, not Parion Oros, the Cilician mountain (658566)."
+}

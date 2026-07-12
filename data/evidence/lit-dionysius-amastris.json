@@ -1,0 +1,31 @@
+{
+  "id": "lit-dionysius-amastris",
+  "label": "Dionysius of Corinth wrote to the church at Amastris and the churches of Pontus, naming bishop Palmas",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/844856",
+    "certainty": "certain",
+    "ancient_name": "Amastris"
+  },
+  "date": {
+    "not_before": 166,
+    "not_after": 175,
+    "basis": "historical_context",
+    "note": "Same letter-collection as lit-dionysius-nicomedia: Dionysius of Corinth wrote during Soter's Roman episcopate (c. 166-174). Harnack notes that at Amastris 'the metropolitan organization was in working order by the reign of M. Aurelius,' the bishop Palmas presiding over the Pontic churches."
+  },
+  "source": {
+    "primary": [
+      {
+        "cite": "Dionysius of Corinth, Letter to the church at Amastris and the churches in Pontus (naming bishop Palmas; requested by Bacchylides and Elpistus), in Eusebius, Hist. eccl. 4.23.6",
+        "url": "https://www.newadvent.org/fathers/250104.htm"
+      }
+    ],
+    "secondary": [
+      {
+        "cite": "Harnack, Mission and Expansion, vol. 2, pp. 188-189; synopsis at p. 95",
+        "bibkey": "harnack1908"
+      }
+    ]
+  },
+  "notes": "Eusebius (HE 4.23.6) preserves that Dionysius wrote 'to the church sojourning at Amastris together with those in Pontus,' mentioning their bishop Palmas by name. A contemporary attestation of an organized, senior see at Amastris (844856, mod. Amasra) c. 170. This is the named Pontic city behind the region-level Pontus attestations (lit-1peter-pontus, lit-pliny-pontus); the Greek again uses paroikousa Amastrin for the sojourning church."
+}

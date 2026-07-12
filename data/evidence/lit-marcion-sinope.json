@@ -1,0 +1,30 @@
+{
+  "id": "lit-marcion-sinope",
+  "label": "Marcion of Sinope was son of the local bishop, implying a church at Sinope in the early 2nd century",
+  "evidence_type": "literary_retrospective",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/857321",
+    "certainty": "certain",
+    "ancient_name": "Sinope"
+  },
+  "date": {
+    "not_before": 100,
+    "not_after": 140,
+    "basis": "historical_context",
+    "note": "Marcion was born at Sinope and had left for Rome by c. 139, where he broke with the church in 144. His father is reported to have been bishop of Sinope, which places an organized church there in the first decades of the 2nd century. The upper bound is Marcion's departure; the lower bound brackets the earliest his father's episcopate is plausibly implied."
+  },
+  "source": {
+    "primary": [
+      {
+        "cite": "Epiphanius, Panarion (Against Heresies) 42.1, on Marcion of Sinope and his father the bishop"
+      }
+    ],
+    "secondary": [
+      {
+        "cite": "Harnack, Mission and Expansion, vol. 2, pp. 188-189; synopsis at p. 95",
+        "bibkey": "harnack1908"
+      }
+    ]
+  },
+  "notes": "Harnack (p. 188) lists Sinope as the home of Marcion, 'whose father is said to have been the local bishop (Hippol., in Epiph., Haer. xli. 1).' The attestation is retrospective and heresiological: Epiphanius (c. 375), drawing on Hippolytus (c. 220), reports the tradition; its evidential value is the incidental detail that Sinope had a bishop, hence a congregation, during Marcion's youth. Sinope (857321) is the Black Sea port of Paphlagonia and Pontus, not the Italian Sinuessa (433122). It is the first named city on the Pontic coast, behind the region-level Pontus items (lit-1peter-pontus, lit-pliny-pontus)."
+}
