@@ -1,0 +1,49 @@
+{
+  "vocabulary": "evidence_type",
+  "version": "0.1.0",
+  "description": "Typology of evidence for Christian presence, with a quality grade per type. Grade 1 is strongest; ties are allowed. This is a versioned rubric in the GRADE tradition: analyses filter or weight by grade, and any change to a grade or definition bumps this file's version. Two placements are marked provisional in their definitions and are the most likely to move.",
+  "terms": [
+    {
+      "value": "documentary_dated",
+      "grade": 1,
+      "definition": "An inscription or papyrus carrying an internal date (consular, regnal, or era) or fixed by its documentary context to a span of a few years. The strongest evidence: a physical object, at a place, at a date.",
+      "examples": ["P.Oxy. XLII 3035 (order to arrest a Christian, 256 CE)"]
+    },
+    {
+      "value": "council_subscription",
+      "grade": 2,
+      "definition": "A bishop's subscription in the acts of a dated council. Attests a bishopric at the subscriber's see on the council's date; the see, not the council's location, is the attested place.",
+      "examples": ["Subscription lists of Nicaea (325)", "Subscription lists of Elvira (early 4th c.)"]
+    },
+    {
+      "value": "archaeological",
+      "grade": 2,
+      "definition": "Physical remains of Christian use: a church building, baptistery, or securely identified Christian burial context. Provisional grade: strength depends entirely on the excavation dating, and rubric v0.1 places the type as a whole alongside council subscriptions.",
+      "examples": ["Dura-Europos house church (before 256)"]
+    },
+    {
+      "value": "literary_contemporary",
+      "grade": 3,
+      "definition": "A literary text attesting Christians at a place at or near the author's own time.",
+      "examples": ["Pliny, Ep. 10.96 (Pontus-Bithynia, 111–113)", "Ignatius' letters to the churches of Asia Minor"]
+    },
+    {
+      "value": "documentary_undated",
+      "grade": 3,
+      "definition": "An inscription or papyrus dated only paleographically or by onomastics, typically to a century or half-century. Provisional grade: the object is as real as documentary_dated, but the date carries the uncertainty of the method.",
+      "examples": ["Christian epitaphs dated by letter forms alone"]
+    },
+    {
+      "value": "literary_retrospective",
+      "grade": 4,
+      "definition": "A literary text attesting Christians at a time significantly before its own composition. The attestation is real; the gap is where error lives.",
+      "examples": ["Eusebius, Hist. eccl., on first- and second-century communities"]
+    },
+    {
+      "value": "hagiographic",
+      "grade": 5,
+      "definition": "Martyrological or hagiographic tradition whose historical core, if any, cannot be dated or verified from the text itself. Recorded, never silently promoted.",
+      "examples": ["Later martyr acts", "Foundation legends of apostolic sees"]
+    }
+  ]
+}
