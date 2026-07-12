@@ -1,0 +1,23 @@
+{
+  "id": "lit-troas-pauline",
+  "label": "Acts and 2 Corinthians attest a Christian gathering at Alexandria Troas",
+  "evidence_type": "literary_contemporary",
+  "place": {
+    "pleiades_uri": "https://pleiades.stoa.org/places/550434",
+    "certainty": "certain",
+    "ancient_name": "Alexandria Troas"
+  },
+  "date": {
+    "not_before": 50,
+    "not_after": 57,
+    "basis": "historical_context",
+    "note": "Paul's second and third journeys (c. 50 and c. 57) per the Pauline chronology; 2 Cor is undisputed Pauline and the Acts passage is a first-person 'we' section, so the source is contemporary with the community."
+  },
+  "source": {
+    "primary": [{ "cite": "Acts 20.5–12; 2 Corinthians 2.12" }],
+    "secondary": [
+      { "cite": "Harnack, Mission and Expansion, vol. 2, pp. 185–186", "bibkey": "harnack1908" }
+    ]
+  },
+  "notes": "Alexandria Troas (Pleiades 550434), the settlement, not the Troad region (550944). Acts 20.7 describes the community gathered to break bread on the first day of the week. Harnack also cites Ignatius (ad Phil. 11), who wrote from Troas c. 110; that later attestation is left for a separate item."
+}
