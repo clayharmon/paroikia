@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# build outputs
+dist/
+site/dist/
+coverage/
+
+# local caches (Pleiades dump, etc.): regenerated, never committed
+.cache/
+.pleiades-cache/
+
+# raw source scans/OCR (public-domain texts pulled locally, not project data)
+sources-raw/
+
+# misc
+*.log
+.DS_Store
