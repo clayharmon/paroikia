@@ -45,6 +45,11 @@ around them.
   rejected, or the source you followed.
 - Keep them concise. A one-line body that carries the reason beats three
   paragraphs of restated diff.
+- **One concern per PR, and small.** A schema change, one script, one batch
+  of evidence items. If the description needs more than two short paragraphs,
+  or the diff mixes schema, pipeline, and docs, split it.
+- A PR description states the why and the decisions the reviewer should
+  weigh. It is not a list of changed files.
 - All work goes through a PR. CI must be green to merge.
 - PRs that add or edit files under `data/` use the data template:
   [.github/PULL_REQUEST_TEMPLATE/data.md](.github/PULL_REQUEST_TEMPLATE/data.md).
