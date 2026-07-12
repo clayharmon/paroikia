@@ -10,6 +10,7 @@
     "node": ">=22"
   },
   "scripts": {
+    "pleiades": "tsx pipeline/pleiades.ts",
     "test": "vitest run --passWithNoTests",
     "typecheck": "tsc --noEmit",
     "validate": "tsx pipeline/validate.ts"
@@ -17,6 +18,7 @@
   "devDependencies": {
     "@types/node": "^26.1.1",
     "ajv": "^8.20.0",
+    "csv-parse": "^7.0.1",
     "tsx": "^4.23.0",
     "typescript": "^7.0.2",
     "vitest": "^4.1.10"

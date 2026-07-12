@@ -1,0 +1,4 @@
+created,description,id,locationPrecision,maxDate,minDate,reprLat,reprLong,tags,title
+2010-09-24,"An ancient Greek city, later the Roman metropolis of Asia",599612,precise,640.0,-750.0,37.939976,27.340637,"city, port",Ephesos
+2010-09-24,"Ancient city refounded in the Hellenistic period",550893,precise,1453.0,-1000.0,38.418564,27.139284,city,Smyrna
+2011-03-09,"A place attested in sources but without an accepted location",999999,unlocated,,,,,settlement,Fake Unlocated Place
